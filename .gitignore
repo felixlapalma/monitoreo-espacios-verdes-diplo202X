@@ -1,0 +1,17 @@
+# venv
+.pyenv
+
+# notebooks
+.ipynb_*
+
+# cache
+__pycache__
+
+# dask related
+dask-worker-space
+
+# misc
+espacios-verdes-indexs-cba-2017-2021.*
+data_raw/
+products-int/images
+TMP*
