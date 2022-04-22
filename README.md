@@ -92,7 +92,7 @@ La construcción del conjunto de datos (bandas, indices, etc) sobre cada zona de
 
 #### Datos Pre-Procesados
 
-- El conjunto de datos procesados corresponde a todos aquellos circunscriptos bajo el [AOI de cordoba](./data/cba/cordoba.geojson) (en lineas rojas la pisada del satelite y en azul la ciudad de Córdoba).
+- El conjunto de datos procesados corresponde a todos aquellos circunscriptos bajo el [AOI de cordoba](./data/cba/cordoba.geojson) (en lineas rojas la pisada del satélite y en azul la ciudad de Córdoba).
  ![aoi](data/media/zona-interes-cba.png)
 
 La sección (parche azul) ampliada luce (para una fecha determinada):

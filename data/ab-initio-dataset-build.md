@@ -3,7 +3,7 @@
 ## Metodología
 
 La metodología propuesta supone la descarga de las imágenes completas. Existen alternativas como el procesamiento
-via secciones o usando COG (Cloud optimized Geotiff) que son completamente viables y no invalidan el proceso
+via secciones o usando COG (Cloud optimized GEOTiff) que son completamente viables y no invalidan el proceso
 descripto a continuación.
 
 ### Ab-initio (Al inicio)
@@ -45,12 +45,14 @@ El análisis inicial o exploración contempla la selección de aquellos indices 
 - Una muestra de los datos procesados se pueden observar en:
 	- [sample-datos](cba/espacios-verdes-dataset-sample.csv)
 
-- Los datos pre-procesados entre 2017 y 2021 se pueden consultar en:
-	- [datos-preprocesados  2017-2021](https://drive.google.com/file/d/1gtfqdI1TAZaQ4QAC3y3E8Qokzj3_keI3/view?usp=sharing) (csv comprimido en zip)
-
 - Los datos procesados entre 2017 y 2022 se pueden consultar en:
-	- LINK WIP
+	- [datos pre-procesados 2017/2022](https://drive.google.com/file/d/1tgbIQaEXzIghcFYyd2YM9iMho4TDHHFd/view?usp=sharing) (csv comprimido en zip)
 
+- El conjunto de datos procesados por raster (un csv x raster) se puede encontrar 
+	- [datos pre-procesados csv x raster 2017 /2022 ](https://drive.google.com/file/d/1Cz3-LleDD1FGuCYnI8Y5Ih-MFWwnQtJK/view?usp=sharing) (276 csvs comprimidos en zip)
+
+- El procentaje de nubes calculadas sobre el aoi de córdoba (no la imagen satelital completa) para cada parche procesado se puede consultar en:
+	- [clouds-on-raster-shape](../data/cba/clouds-on-raster-shape.csv)
 
 ### Imágenes - CBA
 
