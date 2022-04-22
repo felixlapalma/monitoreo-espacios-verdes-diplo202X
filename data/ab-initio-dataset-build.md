@@ -78,6 +78,10 @@ La cantidad de imágenes por fecha y nubosidad se puede observar en:
 Adicionalmente ponemos a disposición al menos 12 parches (1 por mes) de la ciudad de Cordoba:
 - parches: [parches-tif](https://drive.google.com/drive/folders/1OhWuafgPCZxoASy29oCRvCCBDIn6vJ5n?usp=sharing)
 
+
+Por parches nos referimos al stack o apilamiento de bandas de una imagen satelital. Actualmente estamos utilizando:
+- BANDS = ["B02", "B03", "B04", "B05", "B06", "B07", "B8A", "B08", "B11", "B12"]
+
 El conjunto total de parches están a disposición del que lo requiera (por tamaño no están disponibles en el link anterior).
 
 La representación RGB de los parches junto a su mascara de nubes se pueden descargar de:
