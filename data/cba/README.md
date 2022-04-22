@@ -5,4 +5,4 @@
 - **productos-descargados-cba.csv**: conjunto de imágenes descargadas, incluyendo product-id y nubosidad.
 - **espacios-verdes-dataset-sample.csv**: muestra del conjunto de datos
 - **cropped-files.{json,csv}**: conjunto de imágenes recortadas a la zona de interés.
-- **clouds-on-raster-shape.csv**: contiene el porcentaje de nubes calculadas sobre el aoi de córdoba (no la imagen satelital completa) para cada imagen procesada (_cropped-files.{json,csv}).
+- **clouds-on-raster-shape.csv**: contiene el porcentaje de nubes calculadas sobre el aoi de córdoba (no la imagen satelital completa) para cada imagen procesada (_cropped-files.{json,csv}_).

@@ -92,20 +92,23 @@ La construcción del conjunto de datos (bandas, indices, etc) sobre cada zona de
 
 #### Datos Pre-Procesados
 
-- El conjunto de datos procesados corresponde a todos aquellos circunscriptos bajo el [AOI de cordoba](./data/cba/cordoba.geojson) (en lineas rojas la pisada del satélite y en azul la ciudad de Córdoba).
+El conjunto de datos procesados corresponde a todos aquellos circunscriptos bajo el [AOI de cordoba](./data/cba/cordoba.geojson) (en lineas rojas la pisada del satélite y en azul la ciudad de Córdoba).
  ![aoi](data/media/zona-interes-cba.png)
 
 La sección (parche azul) ampliada luce (para una fecha determinada):
 
 ![espacios-verdes-cba](./data/media/cba-espacios-TCI.png)
 
-- Una muestra de los datos pre-procesados se pueden observar en  [sample-datos](data/cba/espacios-verdes-dataset-sample.csv).
+Una muestra de los datos pre-procesados se pueden observar en  [sample-datos](data/cba/espacios-verdes-dataset-sample.csv).
 
-- El conjunto de imágenes utilizadas se puede encontrar en:
-	- descargadas: revisar [dataset-build](data/ab-initio-dataset-build.md) en #_Imágenes-Cba_
-	- procesadas: revisar [dataset-build](data/ab-initio-dataset-build.md) en #_Imágenes-Cba_
- 
+El conjunto de imágenes utilizadas se puede encontrar en:
+- descargadas: revisar [dataset-build](data/ab-initio-dataset-build.md) en #_Imágenes-Cba_
+- procesadas: revisar [dataset-build](data/ab-initio-dataset-build.md) en #_Imágenes-Cba_
+
 __NOTA__: Las imágenes crudas no están disponibles en los links anteriores, pero si es posible descargarlas utilizando el primero de ellos y utilizando alguna de las apis mencionadas en [ab-initio-mev-cba-1](./ab-initio-mev-cba-1.ipynb)
+
+El conjunto de datos pre-procesados se pueden consultar en:
+- [dataset-build](data/ab-initio-dataset-build.md)
 
 #### Estructura de los datos pre-procesados
 
@@ -115,11 +118,9 @@ La estructura de los datos se pueden consultar en:
 #### Parches
 
 Adicionalmente ponemos a disposición al menos 12 parches (1 por mes) de la ciudad de Cordoba:
-- parches: WIP
+- parches: revisar [dataset-build](data/ab-initio-dataset-build.md)
 
 Por parches nos referimos al stack o apilamiento de bandas de una imagen satelital.
-
-El conjunto total de parches están a disposición del que lo requiera (por tamaño no están disponibles en el link anterior).
 
 ## Ambiente
 
