@@ -20,7 +20,9 @@ Trabajar con imágenes satelitales implica incorporar conceptos tales como
 rasters, resolución, bandas, proyecciones,etc. Para su visualización o representación existen diferentes formas que pueden brindar una mejor interpretación de las mismas (cuando queremos resaltar algo en particular por ejemplo).
 Adicionalmente al trabajo con rasters (en forma simplificada un raster es una grilla de puntos cada uno de los cuales tiene alguna clase de identificación geográfica, que nos permite ubicarlos en el espacio) le sumamos ciertas representaciones geométricas, lineas, puntos polígonos (también asociados a cierta clase de referencia geométrica) que nos permiten marcar sobre un raster ciertas zonas de interés por ejemplo.
 
-- **notebook asociada: [Analisis-y-Visualizacion-MEV](./notebooks-tp/Analisis-y-Visualizacion-MEV-TP.ipynb)**
+- **notebook asociada: Analisis-y-Visualizacion-MEV**
+    - [local](./notebooks-tp/Analisis-y-Visualizacion-MEV-TP.ipynb)
+    - [colab](https://colab.research.google.com/drive/1ng4nQs86cx_qK0C0BJwkSsKQ9YVrqVoz#scrollTo=YvZeor7MOwoL)
 
 ### Análisis Exploratorio y Curación de Datos
 
