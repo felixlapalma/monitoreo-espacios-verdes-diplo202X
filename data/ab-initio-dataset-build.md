@@ -54,6 +54,19 @@ El análisis inicial o exploración contempla la selección de aquellos indices 
 - El porcentaje de nubes calculadas sobre el aoi de córdoba (no la imagen satelital completa) para cada parche procesado se puede consultar en:
 	- [clouds-on-raster-shape](../data/cba/clouds-on-raster-shape.csv)
 
+#### Espacios NO verdes (o Indefinidos)
+
+Adicionalmente para la etapa de clasificación adicionamos un dataset (que utiliza el mismo set de imágenes) que corresponde a zonas consideradas NO espacio verde (aunque alguna de ellas pueda involucrar parte de ellas):
+
+- Los datos procesados entre 2017 y 2022 se pueden consultar en:
+	- [datos pre-procesados 2017/2022- NO verde](https://drive.google.com/file/d/1mfir4DZxT3g9tQkPJzCAZYy2VS2VHp7O/view?usp=sharing) (csv comprimido en zip)
+
+- El conjunto de datos procesados por raster (un csv x raster) se puede encontrar 
+	- [datos pre-procesados csv x raster 2017 /2022  - NO Verde ](https://drive.google.com/file/d/1KYbBCwiqzEREX_2g5OYVDbMNjPkT9Qxs/view?usp=sharing) (276 csvs comprimidos en zip)
+
+
+
+
 ### Imágenes - CBA
 
 El conjunto de imágenes utilizadas se puede encontrar en:
@@ -71,7 +84,7 @@ __NOTA__: Se procesaron 276 imágenes en total con un tamaño de ~ 178 Gb.
 #### Imágenes x fecha y nubosidad
 
 La cantidad de imágenes por fecha y nubosidad se puede observar en:
-![imagenes-fecha-nubosidad](../data/cba/images-month-year-clouds.jpg)
+![imágenes-fecha-nubosidad](../data/cba/images-month-year-clouds.jpg)
 
 #### Parches
 
@@ -110,6 +123,12 @@ La metodología descripta se puede observar en las jupyter-notebooks:
 
 - [ab-initio-mev-cba-2](../notebooks/ab-initio-mev-cba-2.ipynb): extracción de estadísticos de bandas y cálculos de indice (ejemplo en 1 imagen).
 
-- [ab-initio-mev-cba-3](../notebooks/ab-initio-mev-cba-3.ipynb): procesado del conjunto total de imágenes y generacion del [dataset](./estructura-datos.md)
+- [ab-initio-mev-cba-3](../notebooks/ab-initio-mev-cba-3.ipynb): procesado del conjunto total de imágenes y generación del [dataset](./estructura-datos.md)
 
 - [ab-initio-mev-cba-4](../notebooks/ab-initio-mev-cba-4.ipynb): muestra conceptual de series temporales para un cierto conjunto de datos y espacio verde.
+
+### Espacios NO verdes
+
+El procesado de zonas consideradas NO verdes se pueden encontrar en:
+
+- - [ab-initio-not-mev-cba](../notebooks/ab-initio-not-ev-cba.ipynb): procesado del conjunto total de imágenes y generación del [dataset](./estructura-datos.md)

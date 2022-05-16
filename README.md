@@ -112,6 +112,13 @@ __NOTA__: Las imágenes crudas no están disponibles en los links anteriores, pe
 El conjunto de datos pre-procesados se pueden consultar en:
 - [dataset-build](data/ab-initio-dataset-build.md)
 
+__Espacios No verdes__
+
+Para la etapa de clasificación adicionamos un conjunto de datos que corresponden a zonas consideradas "NO espacio verde" o no se encuentran (en forma total) enmarcadas en el atlas mencionado en [atlas-espacios-verdes](https://github.com/bitsandbricks/atlas_espacios_verdes).
+
+![no-espacios-verdes-cba](./data/media/cba-all-spaces-TCI.jpg)
+
+
 #### Estructura de los datos pre-procesados
 
 La estructura de los datos se pueden consultar en:
@@ -123,6 +130,7 @@ Adicionalmente ponemos a disposición al menos 12 parches (1 por mes) de la ciud
 - parches: revisar [dataset-build](data/ab-initio-dataset-build.md)
 
 Por parches nos referimos al stack o apilamiento de bandas de una imagen satelital.
+
 
 ## Ambiente
 

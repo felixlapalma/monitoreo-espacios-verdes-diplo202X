@@ -16,11 +16,15 @@ Los mismos se corresponden con diferentes estadísticos o propiedades extraídas
 - name: nombre del espacio ( si es que lo tiene, por ejemplo, _Parque Sarmiento_).
 - area_m2: area en metros cuadrados
 - date: fecha de la muestra.
+- desc: ['Barrio','Barrio+Espacio-Verde','Campo','Indefinido'] __NOTA__: Solo en dataset Espacios NO verdes.
 
-__NOTA__: `Zona de Interés == espacio verde`
-
-Es decir para cada espacio verde comprendido en la ciudad de cordoba (y para cada fecha disponible) se computa las magnitudes mencionadas.
+Es decir para zona de interés (espacio verde y zona No verde) comprendido en la ciudad de cordoba (y para cada fecha disponible) se computa las magnitudes mencionadas.
 
 ![espacios-verdes-cba](./media/cba-espacios-TCI.png)
 
 Por espacio verde nos referimos a cada uno de los polígonos en negro en la figura anterior.
+
+Por espacio NO verde nos referimos a cada uno de los polígonos en azul de la figura siguiente:
+
+![no-espacios-verdes-cba](./media/cba-all-spaces-TCI.jpg)
+
