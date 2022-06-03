@@ -29,7 +29,7 @@ Adicionalmente al trabajo con rasters (en forma simplificada un raster es una gr
 ¿Todos los datos nos sirven? Las imágenes satelitales como toda otra imagen tienen
 diferentes factores que las pueden "ensuciar". Para las imágenes en cuestión, tales
 factores pueden ser:
-- nubes (con esta vamos a estar trabajando particularmente)
+- nubes
 - falta de luminosidad
 - defectos del sensor
 - etc.
@@ -37,7 +37,9 @@ factores pueden ser:
 Independiente del estado de la imagen, siempre podemos extraer datos, calcular indices (combinación de las bandas de un dado raster), etc. Sin embargo estos serán buenos si la imagen de la cual proceden lo era.
 En esta etapa de "conocer" y "curar" los datos vamos a estar interesados en descartar aquellos datos o conjuntos de datos que se desvíen o no aporten información suficiente para los análisis posteriores.
 
-- **notebook asociada: WIP**
+- **notebook asociada: Exploración-y-Curación-MEV**
+    - [local](./notebooks-tp/Exploracion-y-Curacion-MEV-TP.ipynb)
+    - [colab](https://drive.google.com/file/d/1-E0ijX7LTRczoAwYG7eAyfDb5PElyEfi/view?usp=sharing)
 
 ### Aprendizaje Supervisado
 
