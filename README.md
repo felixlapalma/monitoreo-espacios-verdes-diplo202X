@@ -20,9 +20,9 @@ Trabajar con imágenes satelitales implica incorporar conceptos tales como
 rasters, resolución, bandas, proyecciones,etc. Para su visualización o representación existen diferentes formas que pueden brindar una mejor interpretación de las mismas (cuando queremos resaltar algo en particular por ejemplo).
 Adicionalmente al trabajo con rasters (en forma simplificada un raster es una grilla de puntos cada uno de los cuales tiene alguna clase de identificación geográfica, que nos permite ubicarlos en el espacio) le sumamos ciertas representaciones geométricas, lineas, puntos polígonos (también asociados a cierta clase de referencia geométrica) que nos permiten marcar sobre un raster ciertas zonas de interés por ejemplo.
 
-- **notebook asociada: Analisis-y-Visualizacion-MEV**
-    - [local](./notebooks-tp/Analisis-y-Visualizacion-MEV-TP.ipynb)
-    - [colab](https://colab.research.google.com/drive/1ng4nQs86cx_qK0C0BJwkSsKQ9YVrqVoz#scrollTo=YvZeor7MOwoL)
+**notebook asociada: Analisis-y-Visualizacion-MEV**
+- [local](./notebooks-tp/Analisis-y-Visualizacion-MEV-TP.ipynb)
+- [colab](https://colab.research.google.com/drive/1ng4nQs86cx_qK0C0BJwkSsKQ9YVrqVoz#scrollTo=YvZeor7MOwoL)
 
 ### Análisis Exploratorio y Curación de Datos
 
@@ -37,9 +37,9 @@ factores pueden ser:
 Independiente del estado de la imagen, siempre podemos extraer datos, calcular indices (combinación de las bandas de un dado raster), etc. Sin embargo estos serán buenos si la imagen de la cual proceden lo era.
 En esta etapa de "conocer" y "curar" los datos vamos a estar interesados en descartar aquellos datos o conjuntos de datos que se desvíen o no aporten información suficiente para los análisis posteriores.
 
-- **notebook asociada: Exploración-y-Curación-MEV**
-    - [local](./notebooks-tp/Exploracion-y-Curacion-MEV-TP.ipynb)
-    - [colab](https://drive.google.com/file/d/1-E0ijX7LTRczoAwYG7eAyfDb5PElyEfi/view?usp=sharing)
+**notebook asociada: Exploración-y-Curación-MEV**
+- [local](./notebooks-tp/Exploracion-y-Curacion-MEV-TP.ipynb)
+- [colab](https://drive.google.com/file/d/1-E0ijX7LTRczoAwYG7eAyfDb5PElyEfi/view?usp=sharing)
 
 ### Aprendizaje Supervisado
 
@@ -51,7 +51,8 @@ Si tenemos los datos (rasters) y las zonas de interés con su etiqueta correspon
 - ¿Podríamos utilizar los modelos para detectar alguna clase de anomalía en el comportamiento de una dada región?
 - etc
 
-- **notebook asociada: WIP**
+**notebook asociada: Aprendizaje Supervisado**
+- [colab](https://github.com/felixlapalma/monitoreo-espacios-verdes-diplo202X/blob/main/notebooks-tp/Aprendizaje_Supervisado_MEV_TP.ipynb)
 
 ### Aprendizaje No Supervisado
 
