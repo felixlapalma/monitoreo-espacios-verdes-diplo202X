@@ -63,7 +63,8 @@ Si tenemos los datos (rasters) y las zonas de interés con su etiqueta (pero por
 - ¿Que tan importante es la preparación de los datos para que el esquema no supervisado pueda ser efectivo?
 - etc
  
- - **notebook asociada: WIP**
+**notebook asociada: Aprendizaje No Supervisado**
+ - [colab](https://github.com/felixlapalma/monitoreo-espacios-verdes-diplo202X/blob/main/notebooks-tp/Aprendizaje_No_Supervisado_MEV_TP.ipynb)
 
 ### Aplicación: Monitoreo - Series Temporales
 
